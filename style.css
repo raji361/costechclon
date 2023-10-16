@@ -1,0 +1,716 @@
+                    * {
+                        box-sizing: border-box;
+                    }
+                    /* Adjust margin-right for the list items */
+                    
+                    #cn1:hover {
+                        background-color: #221C35;
+                    }
+                    
+                    .collapse {
+                        padding-left: 50%;
+                        padding-right: 100px;
+                    }
+                    
+                    #cn1 {
+                        color: #fff;
+                        background-color: #EA3A1C;
+                        font-size: 14px;
+                        margin-top: 5%;
+                    }
+                    
+                    .logo {
+                        padding-left: 50%;
+                    }
+                    
+                    .container-fluid {
+                        margin: 5px;
+                    }
+                    
+                    .box-one {
+                        background-image: url("images/aec.png");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        padding-top: 570px;
+                    }
+                    
+                    .box-one::before {
+                        content: "";
+                        position: absolute;
+                        top: 58px;
+                        width: 100%;
+                        height: 93%;
+                        background: linear-gradient(to right, #192b65 3%, #66b3d8 97%);
+                        opacity: 0.9;
+                    }
+                    
+                    .btn1,
+                    .btn2 {
+                        height: 45px;
+                        width: 120px;
+                        border: 3px solid #e5e5e5;
+                        border-radius: 60px;
+                        background-color: transparent;
+                        color: #e5e5e5;
+                    }
+                    
+                    .btn2 {
+                        border: none;
+                        background-color: #eb4722;
+                    }
+                    
+                    .box-two {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        position: absolute;
+                        top: 78px;
+                        width: 100%;
+                    }
+                    
+                    .welcometext {
+                        color: #e5e5e5;
+                        margin: 10% 0 10% 12%;
+                    }
+                    
+                    .welcometext h1 {
+                        font-size: 40px;
+                        font-weight: bold;
+                    }
+                    
+                    .what .con {
+                        display: flex;
+                        position: absolute;
+                        top: 80%;
+                        width: 85%;
+                        column-count: 3;
+                        column-gap: 25px;
+                        margin: 0 9% 10% 12%;
+                    }
+                    
+                    .what .con .item {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 2px solid #f0f0f0;
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+                        width: 33.33%;
+                        height: 15%;
+                        border-radius: 25px;
+                        background-color: #eceff2;
+                    }
+                    
+                    .what .con .inner-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 85%;
+                    }
+                    
+                    .what h3 {
+                        color: #eb4722;
+                    }
+                    
+                    .what p {
+                        font-size: 15px;
+                    }
+                    
+                    .what svg {
+                        height: 40px;
+                    }
+                    
+                    .what .svg {
+                        text-align: center;
+                        border: 2px solid #eb4722;
+                        padding-top: 15px;
+                        height: 80px;
+                        width: 80px;
+                        border-radius: 50%;
+                        position: relative;
+                        bottom: 15px;
+                    }
+                    
+                    .what .text {
+                        padding-left: 9px;
+                        height: 100%;
+                        width: 75%;
+                        white-space: normal;
+                        word-wrap: break-word;
+                    }
+                    
+                    .box-two .item {
+                        background-color: #e5e5e5;
+                        border-radius: 30px;
+                        padding: 10px;
+                        text-align: center;
+                    }
+                    
+                    .box-two .item .inner-item svg {
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 35px;
+                        color: #eb4722;
+                        border: 3px solid #eb4722;
+                        padding: 15px;
+                    }
+                    
+                    .box-three {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0;
+                        height: 350px;
+                        background-image: linear-gradient(to right, #192b65 3%, #66b3d8 97%);
+                    }
+                    
+                    .box-three #text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        color: #ffff;
+                        margin-left: 10px;
+                        width: 40%;
+                    }
+                    
+                    .box-three .con {
+                        height: 90%;
+                    }
+                    
+                    .box-four,
+                    .box-five,
+                    .box-six,
+                    .box-seven,
+                    .final-div {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 45px 0;
+                    }
+                    
+                    .box-four {
+                        height: 780px;
+                        flex-direction: column;
+                        color: #eb4722;
+                    }
+                    
+                    .box-four #text {
+                        align-self: flex-start;
+                        padding: 0 0 5px 0;
+                    }
+                    
+                    .box-four .con {
+                        height: 98%;
+                        perspective: 1000px;
+                        position: relative;
+                    }
+                    
+                    .box-three .con,
+                    .box-four .con,
+                    .box-four .con2,
+                    .box-five .con {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 75%;
+                    }
+                    
+                    .box-four .item,
+                    .box-five .item {
+                        color: #ffff;
+                    }
+                    
+                    .box-four .con .item {
+                        display: flex;
+                        flex-direction: column;
+                        width: 303px;
+                        height: 100%;
+                        box-shadow: 3px 4px 16px 1px #54595f;
+                    }
+                    
+                    .box-four .con .item .container {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        height: 55%;
+                        width: 95%;
+                        color: #eb4722;
+                        perspective: 500px;
+                    }
+                    
+                    .box-four .con .item .container .circle {
+                        margin-left: 25%;
+                        border: 2px solid #54595f;
+                        border-radius: 45px;
+                        height: 90px;
+                        width: 90px;
+                    }
+                    
+                    .box-four .title {
+                        text-align: center;
+                    }
+                    
+                    .flipper {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        margin: 8px 0 8px 0;
+                        transform-style: preserve-3d;
+                        transition: transform 0.5s;
+                    }
+                    
+                    .card-front,
+                    .card-back {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 2%;
+                        position: absolute;
+                        backface-visibility: hidden;
+                        margin: 0;
+                    }
+                    
+                    .card-front {
+                        width: 70%;
+                        height: 50%;
+                        transform: rotateY(0deg);
+                    }
+                    
+                    .card-back {
+                        text-align: center;
+                        width: 100%;
+                        height: 100%;
+                        color: #ffff;
+                        background-image: linear-gradient(to right, #192b65 3%, #66b3d8 97%);
+                        transform: rotateY(180deg);
+                    }
+                    
+                    .card-back img {
+                        margin-bottom: 8px;
+                        height: 40px;
+                    }
+                    
+                    .container:hover .flipper {
+                        transform: rotateY(180deg);
+                    }
+                    
+                    #img1 {
+                        background-image: url("images/training.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 60%;
+                    }
+                    
+                    #img2 {
+                        background-image: url("images/rendering.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 80%;
+                    }
+                    
+                    #img3 {
+                        background-image: url("images/certification.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 80%;
+                    }
+                    
+                    #img4 {
+                        background-image: url("images/vr.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 70%;
+                    }
+                    
+                    #img5 {
+                        background-image: url("images/design.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 60%;
+                    }
+                    
+                    #img6 {
+                        background-image: url("images/collaboration.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 80%;
+                    }
+                    
+                    #img7 {
+                        background-image: url("images/modelling.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 60%;
+                    }
+                    
+                    #img8 {
+                        background-image: url("images/crm.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 60%;
+                    }
+                    
+                    .box-five,
+                    .box-seven {
+                        background-image: linear-gradient(to right, #192b65 3%, #66b3d8 97%);
+                    }
+                    
+                    .box-five {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 0;
+                    }
+                    
+                    .box-five .con2 {
+                        color: #ffff;
+                        padding: 10px 0 10px 0;
+                        display: flex;
+                        width: 75%;
+                    }
+                    
+                    .box-five .item .inner-item {
+                        box-shadow: 3px 4px 10px 5px #192b65;
+                        padding: 0 5px 5px 5px;
+                        height: 200px;
+                        width: 300px;
+                    }
+                    
+                    .box-five .item .inner-item span {
+                        display: inline-block;
+                        height: 150px;
+                        width: 289px;
+                    }
+                    
+                    #a {
+                        background-image: url("images/architecture.png");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    
+                    #c {
+                        background-image: url("images/construction.png");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    
+                    #e {
+                        background-image: url("images/engineering.jpg");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    
+                    #m {
+                        background-image: url("images/manufacturing.png");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    
+                    .box-six {
+                        flex-direction: column;
+                        padding: 25px 0;
+                        height: 350px;
+                    }
+                    
+                    .box-six .con {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 95%;
+                        width: 100%;
+                    }
+                    
+                    #counting-digits {
+                        display: flex;
+                        justify-content: space-around;
+                        height: 40%;
+                        width: 75%;
+                        padding: 10px;
+                    }
+                    
+                    #slide-show {
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+                        border: 2px solid #f0f0f0;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px;
+                        width: 75%;
+                        overflow: hidden;
+                    }
+                    
+                    .slideshow-container {
+                        display: flex;
+                    }
+                    
+                    #counting-digits .counter {
+                        text-align: center;
+                        padding-top: 10px;
+                        display: flex;
+                        justify-content: center;
+                        height: 100px;
+                        width: 200px;
+                    }
+                    
+                    #counting-digits .counter h1 {
+                        color: #eb4722;
+                    }
+                    
+                    #counting-digits .counter span {
+                        position: relative;
+                        bottom: 10px;
+                        color: #192b65;
+                    }
+                    
+                    .slide {
+                        display: flex;
+                        width: 100%;
+                        transition: transform 0.5s ease;
+                    }
+                    
+                    .slide div {
+                        flex: 0 0 33.33%;
+                        padding: 20px;
+                        text-align: center;
+                    }
+                    
+                    .dot-container {
+                        text-align: center;
+                        margin-top: 0px;
+                    }
+                    
+                    .dot {
+                        height: 6px;
+                        width: 6px;
+                        margin: 0 5px;
+                        background-color: #bbb;
+                        border-radius: 50%;
+                        display: inline-block;
+                        cursor: pointer;
+                    }
+                    
+                    .carousel-item1 {
+                        background-image: url("images/Autodesk-logo.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 90px;
+                        width: 25%;
+                    }
+                    
+                    .carousel-item2 {
+                        background-image: url("images/Chaos_Enscape-Logo-RGB.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 90px;
+                        width: 25%;
+                    }
+                    
+                    .carousel-item3 {
+                        background-image: url("images/cloudapper-badge-authorized-partner-white.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 90px;
+                        width: 25%;
+                    }
+                    
+                    .carousel-item4 {
+                        background-image: url("images/freshworks.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 100px;
+                        width: 300px;
+                    }
+                    
+                    .carousel-item5 {
+                        background-image: url("images/oracle.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 90px;
+                        width: 300px;
+                    }
+                    
+                    .carousel-item6 {
+                        background-image: url("images/sketchup.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 90px;
+                        width: 100px;
+                    }
+                    
+                    .box-seven {
+                        background-image: linear-gradient(to right, #192b65 3%, #66b3d8 97%);
+                        color: #ffff;
+                        border-bottom: 18px solid #eb4722;
+                    }
+                    
+                    .box-seven h3 {
+                        text-align: center;
+                        border-bottom: 2px solid #eb4722;
+                        padding-bottom: 25px;
+                        width: 100%;
+                    }
+                    
+                    .box-seven #text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 20px auto;
+                    }
+                    
+                    .box-eight {
+                        display: flex;
+                        justify-content: center;
+                        padding: 50px 0;
+                        background-color: #66b3d8;
+                        font-size: 16px;
+                        color: #ffff;
+                    }
+                    
+                    b {
+                        font-size: 30px;
+                        color: #94dbff;
+                    }
+                    
+                    .box-eight .item {
+                        flex: 33.33%;
+                        padding-left: 30px;
+                    }
+                    
+                    .final-div {
+                        background-color: #192b65;
+                        color: #ffff;
+                        padding: 10px;
+                    }
+                    /* Responsive layout - makes a one column-layout instead of two-column layout */
+                    
+                    @media (max-width: 700px) {
+                        .logo {
+                            padding-left: 10%;
+                        }
+                        .con {
+                            column-count: 1;
+                            column-gap: 10px;
+                        }
+                        .box-one {
+                            padding-top: 460px;
+                        }
+                        .box-one::before {
+                            height: 510px;
+                        }
+                        .what .con {
+                            flex-direction: column;
+                            padding-left: 9px;
+                            top: 540px;
+                            height: 600px;
+                            width: 100%;
+                            row-gap: 20px;
+                            margin: 0;
+                        }
+                        .what .con .item {
+                            text-align: center;
+                            height: 29.33%;
+                            width: 98%;
+                        }
+                        .what .inner-item {
+                            flex-direction: column;
+                        }
+                        .what svg {
+                            position: relative;
+                            top: -7px;
+                            height: 30px;
+                        }
+                        .what .svg {
+                            position: relative;
+                            top: 2%;
+                            height: 60px;
+                            width: 60px;
+                        }
+                        .box-three {
+                            height: 600px;
+                            margin-top: 590px;
+                        }
+                        .box-three #text {
+                            font-size: 20px;
+                            height: 50%;
+                            width: 100%;
+                        }
+                        .box-three #video {
+                            max-width: 100%;
+                            height: auto;
+                            padding: 0;
+                        }
+                        .box-two .con,
+                        .box-five .con {
+                            flex-direction: column;
+                            width: 100%;
+                        }
+                        .box-four .con .item .container .circle {
+                            margin-left: 35%;
+                        }
+                        .box-four {
+                            height: 2480px;
+                            justify-content: space-around;
+                        }
+                        .box-three .con,
+                        .box-four .con {
+                            flex-direction: column;
+                            padding-left: 9px;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .box-four .con2,
+                        .box-five .con2 {
+                            width: 98%;
+                        }
+                        .box-four .con .item {
+                            justify-content: space-between;
+                            height: 580px;
+                            width: 98%;
+                        }
+                        .box-five {
+                            justify-content: space-around;
+                        }
+                        .box-five .con {
+                            row-gap: 12px;
+                        }
+                        .box-five .con .item .inner-item {
+                            padding-left: 10px;
+                            width: 100%;
+                        }
+                        .box-five .con .item .inner-item span {
+                            width: 99%;
+                        }
+                        .box-six {
+                            height: 690px;
+                        }
+                        .box-six .con {
+                            height: 100%;
+                        }
+                        #counting-digits {
+                            flex-direction: column;
+                            font-size: 9px;
+                            font-weight: bold;
+                            align-items: center;
+                            height: 65%;
+                            width: 95%
+                        }
+                        #counting-digits h1 {
+                            font-size: 25px;
+                            font-weight: bold;
+                        }
+                        #slide-show {
+                            height: 20%;
+                            width: 95%;
+                        }
+                        .slide div {
+                            border: 1px solid black;
+                            flex: 0 0 100%;
+                        }
+                        .box-three,
+                        .box-eight {
+                            flex-direction: column;
+                        }
+                    }
